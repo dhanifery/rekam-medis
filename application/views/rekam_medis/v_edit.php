@@ -36,7 +36,7 @@
                                         <?php }?>
                                 </select>
                                 <label for="">Keluhan</label>
-                                <textarea placeholder="Keluhan" name="keluhan" value="" class="form-input"><?= $rekam_medis->keluhan?></textarea>
+                                <textarea id="konten" placeholder="Keluhan" name="keluhan" value="" class="form-input"><?= $rekam_medis->keluhan?></textarea>
 
                                 <label for="">Nama Dokter</label>
                                 <select name="id_dokter">
